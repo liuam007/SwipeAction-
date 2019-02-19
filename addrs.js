@@ -19,6 +19,7 @@ Page({
         if (result.confirm) {
           if(type === 'deletea'){
             console.log(1);
+            //这个就是我们新加的
           }else if (type === 'delete') {
             list.splice(this.data.swipeIndex, 1);
             this.setData({
